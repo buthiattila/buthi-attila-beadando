@@ -1,0 +1,49 @@
+<div class="container-fluid">
+
+  <div class="container">
+    <mat-card>
+      <mat-card-content class="recipeItem mb-3">
+        <app-progress-spinner *ngIf="loading"></app-progress-spinner>
+        <div *ngIf="food">
+          <div class="grids">
+            <div class="mb-3">
+              <h1 class="title">{{food.name}}</h1>
+              <div class="category">{{food.category}}</div>
+            </div>
+            <div class="mb-3">
+              <div class="w-100 text-center text-md-end">
+                <app-btn-favorite class="mr-1" [itemIdentifier]="food.id"></app-btn-favorite>
+                <button type="button" mat-raised-button color="primary" (click)="closeFood()" title="Bezárás">
+                  <mat-icon>close</mat-icon>
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <div class="grids">
+            <figure class="leadImg mb-3">
+              <img src="{{food.image}}" alt="{{food.name}}" />
+            </figure>
+            <div class="ingredients mb-3">
+              <h2 class="title mb-2">Hozzávalók</h2>
+              <mat-list role="list" class="list">
+                <mat-list-item class="item" *ngFor="let ingredient of food.ingredients">{{ingredient}}</mat-list-item>
+              </mat-list>
+            </div>
+          </div>
+
+
+          <div class="description mb-3">{{food.longDescription}}</div>
+          <div class="mb-3">
+            <h2 class="title mb-2">Elkészítés</h2>
+            <div [innerHTML]="food.cookingDescription | lineBreaks:2"></div>
+          </div>
+          <div class="imgSlider">
+            <ng-image-slider [images]="imgCollection" [infinite]="true" [autoSlide]="true" [animationSpeed]="2" #nav></ng-image-slider>
+          </div>
+        </div>
+        <p *ngIf="errorMsg !== ''" class="text-center">{{errorMsg}}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

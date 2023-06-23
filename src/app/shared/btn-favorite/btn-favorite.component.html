@@ -1,0 +1,4 @@
+<button type="button" mat-raised-button color="primary" (click)="toggleFavorite()" [title]="titleValue">
+  <mat-icon *ngIf="isFavorite$ | async">favorite</mat-icon>
+  <mat-icon *ngIf="!(isFavorite$ | async)">favorite_border</mat-icon>
+</button>
