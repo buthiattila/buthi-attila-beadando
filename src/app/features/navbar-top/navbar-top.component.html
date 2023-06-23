@@ -1,10 +1,15 @@
-<div class="header-container">
+<nav class="header-container">
   <mat-toolbar color="primary" class="navbar">
-    <div>Recept [beadandó]</div>
-    <div class="nav-items">
-      <a class="nav-item" [routerLinkActive]='["link-active"]' [routerLink]="['home']">Főoldal</a>
-      <a class="nav-item" [routerLinkActive]='["link-active"]' [routerLink]="['foods']">Összes étel</a>
-      <a class="nav-item" [routerLinkActive]='["link-active"]' [routerLink]="['foods/1']">TESZT étel</a>
+    <div>{{title}}</div>
+    <div class="nav-toggler" (click)="toggleMenu()">
+      <div class="toggler-icon" [class.is-open]="isMenuOpen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="nav-items" [class.is-open]="isMenuOpen">
+      <a class="nav-item" *ngFor="let link of links" [routerLinkActive]="['link-active']" [routerLink]="[link.path]">{{link.label}}</a>
     </div>
   </mat-toolbar>
-</div>
+</nav>
