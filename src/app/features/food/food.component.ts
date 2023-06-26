@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
-import {BehaviorSubject, Observable,Subject, takeUntil} from 'rxjs';
+import {BehaviorSubject, Subject, takeUntil} from 'rxjs';
 
 import {FoodService} from "../../core/services/food.service";
 import {Food} from "../../core/types/food.type";

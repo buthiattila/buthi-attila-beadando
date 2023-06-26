@@ -1,2 +1,28 @@
-<p>foods works!</p>
+<div class="container-fluid">
+  <div class="container">
+    <app-progress-spinner *ngIf="loading"></app-progress-spinner>
 
+    <div *ngIf="!loading">
+      <mat-form-field>
+        <mat-label>Keresés</mat-label>
+        <input matInput (keyup)="applyFilter($event)" placeholder="Keresés">
+      </mat-form-field>
+
+      <div class="w-100 text-center mb-3">
+        <mat-slide-toggle color="primary"  [(ngModel)]="onlyFavorites">
+          Csak a kedvecnek között keressen!
+        </mat-slide-toggle>
+      </div>
+
+      <div *ngIf="filteredFoods.length; else elseBlock">
+
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #elseBlock>
+  <h2 class="w-100 text-center">Nincs találat</h2>
+</ng-template>

@@ -9,7 +9,7 @@ import {HttpService} from "./http.service";
 })
 export class FoodService {
 
-  private mockPath:string = './assets/foods.json';
+  private mockPath: string = './assets/foods.json';
 
   private foods = new BehaviorSubject<Food[] | null>(null);
   foods$ = this.foods.asObservable();

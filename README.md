@@ -12,15 +12,15 @@ OK - Legyen egy statikus footer rész, mely tartalmazza a nevetek, elérhetősé
     - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
 OK  - Bármely elemre kattintva megnyílik navigáció után az étel összes adata.
     OK - név, legalább 3 kép sliderben, hosszú leírás, összetevők, elkészítés
-- Legyen egy összes étel menüpont ahol grid elrendezésben látszik az összes étel
-  - Az oldalon legyen egy szabadszavas kereső mely az étel nevében vagy a kategória nevében keres
-  - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
-  - A kereső mellett legyen egy checkbox vagy radio gomb mely plusz feltételként hozzáadja, hogy csak a kedvencek közt keressen a kereső.
-  - Üres kereső mező esetén az összes találatot meg kell mutatni
-  - Ha nincs találat akkor írjuk ki ezt üzenetként
-OK - Az applikáció futása alatt (oldalújratöltésig) végig tudja mi van vagy nincs a kedvencekben, tehát appon belüli navigáció során se vesszen el ez az adat.
-OK - Az apphoz szükséges adatok mockolt api servicen keresztül érkezzenek observable-ben.
-OK A feladatot új angular installal végezzétek el, stílusozáshoz használjátok az scss-t és kövessétek a tanfolyam során tanult kódolási és nevezék konvenciókat.
+  - Legyen egy összes étel menüpont ahol grid elrendezésben látszik az összes étel
+   OK - Az oldalon legyen egy szabadszavas kereső mely az étel nevében vagy a kategória nevében keres
+    - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
+   OK - A kereső mellett legyen egy checkbox vagy radio gomb mely plusz feltételként hozzáadja, hogy csak a kedvencek közt keressen a kereső.
+   OK - Üres kereső mező esetén az összes találatot meg kell mutatni
+   OK - Ha nincs találat akkor írjuk ki ezt üzenetként
+  OK - Az applikáció futása alatt (oldalújratöltésig) végig tudja mi van vagy nincs a kedvencekben, tehát appon belüli navigáció során se vesszen el ez az adat.
+  OK - Az apphoz szükséges adatok mockolt api servicen keresztül érkezzenek observable-ben.
+  OK A feladatot új angular installal végezzétek el, stílusozáshoz használjátok az scss-t és kövessétek a tanfolyam során tanult kódolási és nevezék konvenciókat.
 - A kész projektet buildelve telepítsétek firebasere. A sikeres beadáshoz aktív firebase link és publikus git repó szükséges!
   Egy ételről ezeket tudjuk:
 - név
