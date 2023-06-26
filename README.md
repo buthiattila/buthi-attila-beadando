@@ -12,9 +12,9 @@ OK - Legyen egy statikus footer rész, mely tartalmazza a nevetek, elérhetősé
     - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
 OK  - Bármely elemre kattintva megnyílik navigáció után az étel összes adata.
     OK - név, legalább 3 kép sliderben, hosszú leírás, összetevők, elkészítés
-  - Legyen egy összes étel menüpont ahol grid elrendezésben látszik az összes étel
+  OK - Legyen egy összes étel menüpont ahol grid elrendezésben látszik az összes étel
    OK - Az oldalon legyen egy szabadszavas kereső mely az étel nevében vagy a kategória nevében keres
-    - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
+   OK - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
    OK - A kereső mellett legyen egy checkbox vagy radio gomb mely plusz feltételként hozzáadja, hogy csak a kedvencek közt keressen a kereső.
    OK - Üres kereső mező esetén az összes találatot meg kell mutatni
    OK - Ha nincs találat akkor írjuk ki ezt üzenetként

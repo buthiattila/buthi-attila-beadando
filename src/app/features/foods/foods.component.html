@@ -9,20 +9,35 @@
       </mat-form-field>
 
       <div class="w-100 text-center mb-3">
-        <mat-slide-toggle color="primary"  [(ngModel)]="onlyFavorites">
+        <mat-slide-toggle color="primary" [(ngModel)]="onlyFavorites">
           Csak a kedvecnek között keressen!
         </mat-slide-toggle>
       </div>
 
       <div *ngIf="filteredFoods.length; else elseBlock">
-
-        
-
+        <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
+          <mat-grid-tile class="card" *ngFor="let food of filteredFoods">
+            <mat-card>
+              <mat-card-content class="recipeItem">
+                <app-btn-favorite class="btn-favorite" [itemIdentifier]="food.id"></app-btn-favorite>
+                <div (click)="openItem(food.id)">
+                  <figure class="leadImg mb-1">
+                    <img src="{{food.image}}" alt="{{food.name}}" />
+                  </figure>
+                  <div class="mb-1">
+                    <div class="title">{{food.name}}</div>
+                  </div>
+                  <small class="description mb-1">{{food.shortDescription}}</small>
+                </div>
+              </mat-card-content>
+            </mat-card>
+          </mat-grid-tile>
+        </mat-grid-list>
       </div>
     </div>
   </div>
 </div>
 
 <ng-template #elseBlock>
-  <h2 class="w-100 text-center">Nincs találat</h2>
+  <h2 class="w-100 text-center errorMessage">{{errorMessage}}</h2>
 </ng-template>

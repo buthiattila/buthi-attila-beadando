@@ -1,4 +1,49 @@
+$text_color_1: #9bcb3b;
+$text_color_2: #673ab7;
+
 .mat-mdc-form-field {
   font-size: 14px;
   width: 100%;
+}
+
+.mat-mdc-card {
+  box-shadow: none;
+}
+
+.btn-favorite {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.recipeItem {
+  margin: 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+  cursor: pointer;
+
+  .title {
+    font-weight: 600;
+    color: $text_color_1;
+  }
+
+  .category {
+    font-style: italic;
+    font-size: .8rem;
+    color: $text_color_2;
+  }
+
+  .leadImg {
+    img {
+      border-radius: .5rem;
+      max-width: 100%;
+    }
+  }
+}
+
+.errorMessage {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: $text_color_2;
 }
