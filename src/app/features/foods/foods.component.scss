@@ -6,40 +6,120 @@ $text_color_2: #673ab7;
   width: 100%;
 }
 
-.mat-mdc-card {
-  box-shadow: none;
-}
-
 .btn-favorite {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 1;
 }
 
+.errorMessage {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: $text_color_2;
+}
+
+.entry-image {
+  width: 100%;
+  height: 368px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
 .recipeItem {
-  margin: 1rem;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
   font-size: 1rem;
+  position: relative;
   border-radius: .5rem;
-  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
   cursor: pointer;
+  box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
 
-  .title {
-    font-weight: 600;
-    color: $text_color_1;
-  }
+  .entry-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
 
-  .category {
-    font-style: italic;
-    font-size: .8rem;
-    color: $text_color_2;
-  }
+    .entry-content-item {
+      flex-grow: 1;
+      background-color: #fff;
 
-  .leadImg {
-    img {
-      border-radius: .5rem;
-      max-width: 100%;
+      .entry-description {
+        position: relative;
+        background-color: #fff;
+        padding: 0 20px 20px 20px;
+        text-align: center;
+
+        .entry-category {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          top: -20px;
+          left: 0;
+          right: 0;
+          position: absolute;
+
+          span {
+            background-color: #000;
+            color: #fff;
+            font-size: .7rem;
+            min-width: 175px;
+            padding: 10px 16px;
+            text-align: center;
+            line-height: 14px;
+            display: inline-block;
+            z-index: 1;
+            border-radius: 0;
+            font-family: "Bebas Neue", sans-serif;
+            text-transform: uppercase;
+          }
+        }
+
+        .entry-title {
+          position: relative;
+          padding-top: 2rem;
+          font-size: 30px;
+          line-height: 1.1em;
+          margin-bottom: 8px !important;
+          text-transform: uppercase;
+        }
+
+        .entry-summary {
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          max-height: 75px;
+          font-weight: normal;
+          font-style: italic;
+          font-size: .9rem;
+        }
+      }
     }
   }
+
+  &:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+  }
+
+
+  img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
 }
 
 .errorMessage {

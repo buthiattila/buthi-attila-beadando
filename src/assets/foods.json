@@ -81,6 +81,88 @@
           "alt": "izé3"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Paradicsomos pizza",
+      "category": "Pizzareceptek",
+      "image": "assets/images/pizza_1.jpeg",
+      "shortDescription": "Pizza Veres Mari konyhájából",
+      "longDescription": "Paradicsomos pizza Veres Mari konyhájából",
+      "ingredients": [
+        "100 dkg finomliszt",
+        "1.5 dkg friss élesztő",
+        "140 g sűrített paradicsom  (két kis doboz)",
+        "2 ek olívaolaj",
+        "3 gerezd fokhagyma",
+        "2 ek só",
+        "bors  ízlés szerint",
+        "oregánó  ízlés szerint",
+        "bazsalikom  ízlés szerint",
+        "rozmaring  ízlés szerint"
+      ],
+      "cookingDescription": "Egy deci langyos vízben elkeverjük az élesztőt, a cukrot, pici sót és egy kanál lisztet, hagyjuk felfutni.\n      Egy nagy tálba szitáljuk bele a lisztet, keverjük hozzá a felfuttatott élesztőt és annyi langyos vizet még, hogy lágy tésztát kapjunk. Dolgozzuk jól ki addig, míg elengedi az edény falát.\n      Lisztezzük be a tál oldalát, a tészta tetejét, és takarjuk le konyharuhával. Langyos helyen kelesszük, míg a duplájára nem nő.\n      Közben elkészítjük a pizzamártást: a fokhagymát megfuttatjuk az olívaolajban. Vigyázzunk, meg ne barnuljon, mert akkor megkeseredik. Ráöntjük a paradicsompürét, ízesítjük, és annyi vizet adunk hozzá, amennyi a konzervdoboz kimosásához kellett. Fedő alatt összefőzzük.\n      Lisztezett deszkára kivesszük a tésztát, átgyúrjuk, hogy a buborékok távozzanak, és 8 cipóba osztjuk. Ahány személy, annyi cipó, ha maradna, fóliába csomagolva lefagyaszthatjuk.\n      Vékonyra nyújtjuk, és megkenjük 2-3 evőkanál mártással, a szélén 1 cm szegélyt hagyva. Ráreszeljük vagy szeleteljük a sajtot.\n      A sajtra terítjük a sonkát, gombát, halat stb., végül megszórjuk a mártáshoz használt pizzafűszerekkel, előmelegített sütőbe tesszük, és kb. tíz percig sütjük 250 fokon.",
+      "sliderImages": [
+        {
+          "image": "assets/images/pizza_1.jpeg",
+          "thumbImage": "assets/images/pizza_1.jpeg",
+          "title": "izé1",
+          "alt": "izé1"
+        },
+        {
+          "image": "assets/images/pizza_1.jpeg",
+          "thumbImage": "assets/images/pizza_1.jpeg",
+          "title": "izé2",
+          "alt": "izé2"
+        },
+        {
+          "image": "assets/images/pizza_1.jpeg",
+          "thumbImage": "assets/images/pizza_1.jpeg",
+          "title": "izé3",
+          "alt": "izé3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Paradicsomos pizza",
+      "category": "Pizzareceptek",
+      "image": "assets/images/pizza_1.jpeg",
+      "shortDescription": "Pizza Veres Mari konyhájából",
+      "longDescription": "Paradicsomos pizza Veres Mari konyhájából",
+      "ingredients": [
+        "100 dkg finomliszt",
+        "1.5 dkg friss élesztő",
+        "140 g sűrített paradicsom  (két kis doboz)",
+        "2 ek olívaolaj",
+        "3 gerezd fokhagyma",
+        "2 ek só",
+        "bors  ízlés szerint",
+        "oregánó  ízlés szerint",
+        "bazsalikom  ízlés szerint",
+        "rozmaring  ízlés szerint"
+      ],
+      "cookingDescription": "Egy deci langyos vízben elkeverjük az élesztőt, a cukrot, pici sót és egy kanál lisztet, hagyjuk felfutni.\n      Egy nagy tálba szitáljuk bele a lisztet, keverjük hozzá a felfuttatott élesztőt és annyi langyos vizet még, hogy lágy tésztát kapjunk. Dolgozzuk jól ki addig, míg elengedi az edény falát.\n      Lisztezzük be a tál oldalát, a tészta tetejét, és takarjuk le konyharuhával. Langyos helyen kelesszük, míg a duplájára nem nő.\n      Közben elkészítjük a pizzamártást: a fokhagymát megfuttatjuk az olívaolajban. Vigyázzunk, meg ne barnuljon, mert akkor megkeseredik. Ráöntjük a paradicsompürét, ízesítjük, és annyi vizet adunk hozzá, amennyi a konzervdoboz kimosásához kellett. Fedő alatt összefőzzük.\n      Lisztezett deszkára kivesszük a tésztát, átgyúrjuk, hogy a buborékok távozzanak, és 8 cipóba osztjuk. Ahány személy, annyi cipó, ha maradna, fóliába csomagolva lefagyaszthatjuk.\n      Vékonyra nyújtjuk, és megkenjük 2-3 evőkanál mártással, a szélén 1 cm szegélyt hagyva. Ráreszeljük vagy szeleteljük a sajtot.\n      A sajtra terítjük a sonkát, gombát, halat stb., végül megszórjuk a mártáshoz használt pizzafűszerekkel, előmelegített sütőbe tesszük, és kb. tíz percig sütjük 250 fokon.",
+      "sliderImages": [
+        {
+          "image": "assets/images/pizza_1.jpeg",
+          "thumbImage": "assets/images/pizza_1.jpeg",
+          "title": "izé1",
+          "alt": "izé1"
+        },
+        {
+          "image": "assets/images/pizza_1.jpeg",
+          "thumbImage": "assets/images/pizza_1.jpeg",
+          "title": "izé2",
+          "alt": "izé2"
+        },
+        {
+          "image": "assets/images/pizza_1.jpeg",
+          "thumbImage": "assets/images/pizza_1.jpeg",
+          "title": "izé3",
+          "alt": "izé3"
+        }
+      ]
     }
   ],
   "total": 30

@@ -1,8 +1,8 @@
 <div class="container-fluid">
-  <div class="container">
-    <app-progress-spinner *ngIf="loading"></app-progress-spinner>
+  <app-progress-spinner *ngIf="loading"></app-progress-spinner>
 
-    <div *ngIf="!loading">
+  <div *ngIf="!loading">
+    <div class="container">
       <mat-form-field>
         <mat-label>Keresés</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="Keresés">
@@ -13,27 +13,27 @@
           Csak a kedvecnek között keressen!
         </mat-slide-toggle>
       </div>
-
-      <div *ngIf="filteredFoods.length; else elseBlock">
-        <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
-          <mat-grid-tile class="card" *ngFor="let food of filteredFoods">
-            <mat-card>
-              <mat-card-content class="recipeItem">
-                <app-btn-favorite class="btn-favorite" [itemIdentifier]="food.id"></app-btn-favorite>
-                <div (click)="openItem(food.id)">
-                  <figure class="leadImg mb-1">
-                    <img src="{{food.image}}" alt="{{food.name}}" />
-                  </figure>
-                  <div class="mb-1">
-                    <div class="title">{{food.name}}</div>
-                  </div>
-                  <small class="description mb-1">{{food.shortDescription}}</small>
+    </div>
+    <div *ngIf="filteredFoods.length; else elseBlock">
+      <mat-grid-list [cols]="breakpoint" [rowHeight]="600" gutterSize="0" (window:resize)="onResize($event)">
+        <mat-grid-tile *ngFor="let food of filteredFoods">
+          <article class="recipeItem">
+            <app-btn-favorite class="btn-favorite" [itemIdentifier]="food.id"></app-btn-favorite>
+            <div class="entry-content" (click)="openItem(food.id)">
+              <figure class="entry-content-item">
+                <img src="{{food.image}}" alt="{{food.name}}"/>
+              </figure>
+              <div class="entry-content-item">
+                <div class="entry-description">
+                  <div class="entry-category "><span>{{food.category}}</span></div>
+                  <div class="entry-title"><h2>{{food.name}}</h2></div>
+                  <div class="entry-summary">{{food.shortDescription}}</div>
                 </div>
-              </mat-card-content>
-            </mat-card>
-          </mat-grid-tile>
-        </mat-grid-list>
-      </div>
+              </div>
+            </div>
+          </article>
+        </mat-grid-tile>
+      </mat-grid-list>
     </div>
   </div>
 </div>
