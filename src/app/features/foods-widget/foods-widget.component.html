@@ -1,1 +1,17 @@
-<p>foods-widget works!</p>
+<app-progress-spinner *ngIf="loading"></app-progress-spinner>
+<div *ngIf="!loading">
+  <section class="product" *ngFor="let category of categoryWithFoods | keyvalue">
+    <h1 class="text-center">{{category.key}}</h1>
+    <div class="container-fluid">
+      <div class="slider-wrap">
+        <div class="slider-main">
+
+        </div>
+        <div class="arrow-container">
+          <div class="arrow left-arrow" appStepPrev mainContainer=".slider-wrap" itemContainer=".slider-main"><</div>
+          <div class="arrow right-arrow" appStepNext mainContainer=".slider-wrap" itemContainer=".slider-main">></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

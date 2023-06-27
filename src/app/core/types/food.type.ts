@@ -14,3 +14,7 @@ export type FoodsResponse = {
   total: number,
   foods: Food[],
 }
+
+export type FoodsByCategoriesResponse = {
+  [key: string]: Food[]
+}

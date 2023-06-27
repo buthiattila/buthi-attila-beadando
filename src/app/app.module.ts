@@ -17,6 +17,8 @@ import {FoodComponent} from './features/food/food.component';
 import {FoodsWidgetComponent} from './features/foods-widget/foods-widget.component';
 import {ProgressSpinnerComponent} from "./shared/progress-spinner/progress-spinner.component";
 import {BtnFavoriteComponent} from './shared/btn-favorite/btn-favorite.component';
+import {StepNextDirective} from "./shared/step/step-next.directive";
+import {StepPrevDirective} from "./shared/step/step-prev.directive";
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import {BtnFavoriteComponent} from './shared/btn-favorite/btn-favorite.component
     FoodsWidgetComponent,
     ProgressSpinnerComponent,
     BtnFavoriteComponent,
+    StepNextDirective,
+    StepPrevDirective,
   ],
   imports: [
     BrowserModule,
