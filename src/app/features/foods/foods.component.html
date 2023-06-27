@@ -5,11 +5,11 @@
     <div class="container">
       <mat-form-field>
         <mat-label>Keresés</mat-label>
-        <input matInput (keyup)="applyFilter($event)" placeholder="Keresés">
+        <input matInput (keyup)="changeFilter($event)" placeholder="Keresés">
       </mat-form-field>
 
       <div class="w-100 text-center mb-3">
-        <mat-slide-toggle color="primary" [(ngModel)]="onlyFavorites">
+        <mat-slide-toggle color="primary" [(ngModel)]="onlyFavorites" (change)="changeFavorites()">
           Csak a kedvecnek között keressen!
         </mat-slide-toggle>
       </div>

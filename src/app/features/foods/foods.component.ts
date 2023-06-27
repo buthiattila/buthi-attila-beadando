@@ -15,6 +15,7 @@ export class FoodsComponent implements OnInit {
 
   loading: boolean = false;
   onlyFavorites: boolean = false;
+  filterString: string = '';
   errorMessage: string = '';
   foods: Food[] = [];
   filteredFoods: Food[] = [];
@@ -56,13 +57,17 @@ export class FoodsComponent implements OnInit {
     });
   }
 
-  applyFilter(event: Event): void {
-    const filterValue: string = (event.target as HTMLInputElement).value.trim().toLowerCase();
+  changeFilter(event: Event): void {
+    this.filterString = (event.target as HTMLInputElement).value.trim().toLowerCase();
 
+    this.applyFilter();
+  }
+
+  applyFilter(): void {
     this.filteredFoods = this.foods.filter((item) => {
-      let found: boolean = item.category.toLowerCase().includes(filterValue) || item.name.toLowerCase().includes(filterValue);
+      let found: boolean = item.category.toLowerCase().includes(this.filterString) || item.name.toLowerCase().includes(this.filterString);
 
-      if (this.onlyFavorites) {
+      if (found && this.onlyFavorites) {
         found = this.storageService.check('favorite', item.id);
       }
 
@@ -70,6 +75,10 @@ export class FoodsComponent implements OnInit {
     });
 
     this.errorMessage = (!this.filteredFoods.length ? 'Nincs a szűrésnek megfelelő recept' : '');
+  }
+
+  changeFavorites(): void {
+    this.applyFilter();
   }
 
   onResize(event: any): void {
