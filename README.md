@@ -31,3 +31,10 @@ OK  - Bármely elemre kattintva megnyílik navigáció után az étel összes ad
 - összetevők
 - elkészítés
 - silder képek (min 3)
+
+
+pizza:4
+paradicsomos:1
+gombás:1
+gyümölcsös:1
+sajtos:1

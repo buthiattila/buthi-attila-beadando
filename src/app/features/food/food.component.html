@@ -8,7 +8,7 @@
           <div class="grids">
             <div class="mb-3">
               <h1 class="title">{{food.name}}</h1>
-              <div class="category">{{food.category}}</div>
+              <div class="category">{{food.category | implode:'#'}}</div>
             </div>
             <div class="mb-3">
               <div class="w-100 text-center text-md-end">

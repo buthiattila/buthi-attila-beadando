@@ -65,7 +65,7 @@ export class FoodsComponent implements OnInit {
 
   applyFilter(): void {
     this.filteredFoods = this.foods.filter((item) => {
-      let found: boolean = item.category.toLowerCase().includes(this.filterString) || item.name.toLowerCase().includes(this.filterString);
+      let found: boolean = item.category.some(elem => elem.toLowerCase().includes(this.filterString)) || item.name.toLowerCase().includes(this.filterString);
 
       if (found && this.onlyFavorites) {
         found = this.storageService.check('favorite', item.id);

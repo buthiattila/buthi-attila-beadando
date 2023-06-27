@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "Paradicsomos pizza",
-      "category": "Pizzareceptek",
-      "image": "assets/images/pizza_1.jpeg",
+      "category": ["pizza","paradicsomos"],
+      "image": "assets/images/1.jpeg",
       "shortDescription": "Pizza Veres Mari konyhájából",
       "longDescription": "Paradicsomos pizza Veres Mari konyhájából",
       "ingredients": [
@@ -22,20 +22,20 @@
       "cookingDescription": "Egy deci langyos vízben elkeverjük az élesztőt, a cukrot, pici sót és egy kanál lisztet, hagyjuk felfutni.\n      Egy nagy tálba szitáljuk bele a lisztet, keverjük hozzá a felfuttatott élesztőt és annyi langyos vizet még, hogy lágy tésztát kapjunk. Dolgozzuk jól ki addig, míg elengedi az edény falát.\n      Lisztezzük be a tál oldalát, a tészta tetejét, és takarjuk le konyharuhával. Langyos helyen kelesszük, míg a duplájára nem nő.\n      Közben elkészítjük a pizzamártást: a fokhagymát megfuttatjuk az olívaolajban. Vigyázzunk, meg ne barnuljon, mert akkor megkeseredik. Ráöntjük a paradicsompürét, ízesítjük, és annyi vizet adunk hozzá, amennyi a konzervdoboz kimosásához kellett. Fedő alatt összefőzzük.\n      Lisztezett deszkára kivesszük a tésztát, átgyúrjuk, hogy a buborékok távozzanak, és 8 cipóba osztjuk. Ahány személy, annyi cipó, ha maradna, fóliába csomagolva lefagyaszthatjuk.\n      Vékonyra nyújtjuk, és megkenjük 2-3 evőkanál mártással, a szélén 1 cm szegélyt hagyva. Ráreszeljük vagy szeleteljük a sajtot.\n      A sajtra terítjük a sonkát, gombát, halat stb., végül megszórjuk a mártáshoz használt pizzafűszerekkel, előmelegített sütőbe tesszük, és kb. tíz percig sütjük 250 fokon.",
       "sliderImages": [
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/1.jpeg",
+          "thumbImage": "assets/images/1.jpeg",
           "title": "izé1",
           "alt": "izé1"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/1.jpeg",
+          "thumbImage": "assets/images/1.jpeg",
           "title": "izé2",
           "alt": "izé2"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/1.jpeg",
+          "thumbImage": "assets/images/1.jpeg",
           "title": "izé3",
           "alt": "izé3"
         }
@@ -43,40 +43,40 @@
     },
     {
       "id": 2,
-      "name": "Paradicsomos pizza",
-      "category": "Pizzareceptek",
-      "image": "assets/images/pizza_1.jpeg",
-      "shortDescription": "Pizza Veres Mari konyhájából",
-      "longDescription": "Paradicsomos pizza Veres Mari konyhájából",
+      "name": "Epres-bazsalikomos pizza",
+      "category": ["pizza","gyümölcsös"],
+      "image": "assets/images/2.jpeg",
+      "shortDescription": "Pizza + eper kombó",
+      "longDescription": "Pizza mint desszert? Tudom, hogy szokatlan, de higgyétek el, megéri kipróbálni ezt az újdonságot.",
       "ingredients": [
-        "100 dkg finomliszt",
-        "1.5 dkg friss élesztő",
-        "140 g sűrített paradicsom  (két kis doboz)",
-        "2 ek olívaolaj",
-        "3 gerezd fokhagyma",
-        "2 ek só",
-        "bors  ízlés szerint",
-        "oregánó  ízlés szerint",
-        "bazsalikom  ízlés szerint",
-        "rozmaring  ízlés szerint"
+        "500 ml víz",
+        "2 g friss élesztő",
+        "20 g kristálycukor",
+        "15 g só",
+        "1 ek olívaolaj + a formázáshoz",
+        "800 - 850 g 00-s pizzaliszt",
+        "kukoricadara a formázáshoz",
+        "300 g friss eper",
+        "100 g kristálycukor",
+        "1 db citrom"
       ],
-      "cookingDescription": "Egy deci langyos vízben elkeverjük az élesztőt, a cukrot, pici sót és egy kanál lisztet, hagyjuk felfutni.\n      Egy nagy tálba szitáljuk bele a lisztet, keverjük hozzá a felfuttatott élesztőt és annyi langyos vizet még, hogy lágy tésztát kapjunk. Dolgozzuk jól ki addig, míg elengedi az edény falát.\n      Lisztezzük be a tál oldalát, a tészta tetejét, és takarjuk le konyharuhával. Langyos helyen kelesszük, míg a duplájára nem nő.\n      Közben elkészítjük a pizzamártást: a fokhagymát megfuttatjuk az olívaolajban. Vigyázzunk, meg ne barnuljon, mert akkor megkeseredik. Ráöntjük a paradicsompürét, ízesítjük, és annyi vizet adunk hozzá, amennyi a konzervdoboz kimosásához kellett. Fedő alatt összefőzzük.\n      Lisztezett deszkára kivesszük a tésztát, átgyúrjuk, hogy a buborékok távozzanak, és 8 cipóba osztjuk. Ahány személy, annyi cipó, ha maradna, fóliába csomagolva lefagyaszthatjuk.\n      Vékonyra nyújtjuk, és megkenjük 2-3 evőkanál mártással, a szélén 1 cm szegélyt hagyva. Ráreszeljük vagy szeleteljük a sajtot.\n      A sajtra terítjük a sonkát, gombát, halat stb., végül megszórjuk a mártáshoz használt pizzafűszerekkel, előmelegített sütőbe tesszük, és kb. tíz percig sütjük 250 fokon.",
+      "cookingDescription": "Az epres-bazsalikomos pizzához a pontosan kimért langyos vízben elkeverjük az élesztőt, a cukrot és a sót. Hozzáadjuk az olívaolajat is, és a lisztre öntjük. Most 830 g lisztet mértem, de dolgoztam már az ajánlott mennyiségeken belül több mennyiséggel is. Ez nagyban függ az évjáratoktól és a termőterületektől. Legalább 15-20 percig dolgozva simára dagasztjuk a tésztát.\n\nA kidolgozott tésztát egy nagy méretű műanyag zacskóba tesszük, amit előtte vékonyan beolajozunk. 10-12 fokos hűtőszekrénybe tesszük 12-24 órára, vagy akár hosszabb időre is. Akkor lesz jó minőségű a pizzatésztánk, ha alacsony hőmérsékleten, hosszú ideig kelesztjük.\n\nA felhasználás előtt 4-6 órával korábban kivesszük a tésztát a hűtőből, majd felhasználás előtt hatfelé osztjuk, kigombócozzuk, kicsit átgyúrjuk és lefedve 30-40 percig kelesztjük.",
       "sliderImages": [
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/2.jpeg",
+          "thumbImage": "assets/images/2.jpeg",
           "title": "izé1",
           "alt": "izé1"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/2.jpeg",
+          "thumbImage": "assets/images/2.jpeg",
           "title": "izé2",
           "alt": "izé2"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/2.jpeg",
+          "thumbImage": "assets/images/2.jpeg",
           "title": "izé3",
           "alt": "izé3"
         }
@@ -84,40 +84,40 @@
     },
     {
       "id": 3,
-      "name": "Paradicsomos pizza",
-      "category": "Pizzareceptek",
-      "image": "assets/images/pizza_1.jpeg",
-      "shortDescription": "Pizza Veres Mari konyhájából",
-      "longDescription": "Paradicsomos pizza Veres Mari konyhájából",
+      "name": "Megúszós gombás-szalámis pita-pizza",
+      "category": ["pizza","gombás"],
+      "image": "assets/images/3.jpeg",
+      "shortDescription": "Nagyon tuti kamupizza",
+      "longDescription": "Nincs otthon semmilyen friss kenyérfélétek, de a fagyasztóban lapul néhány pita? Akkor ez a recept szuper alternatíva lehet, ha épp nincs kedvetek a gyrossal bajlódni.",
       "ingredients": [
-        "100 dkg finomliszt",
-        "1.5 dkg friss élesztő",
-        "140 g sűrített paradicsom  (két kis doboz)",
-        "2 ek olívaolaj",
-        "3 gerezd fokhagyma",
-        "2 ek só",
-        "bors  ízlés szerint",
-        "oregánó  ízlés szerint",
-        "bazsalikom  ízlés szerint",
-        "rozmaring  ízlés szerint"
+        "500 ml víz",
+        "2 g friss élesztő",
+        "20 g kristálycukor",
+        "15 g só",
+        "1 ek olívaolaj + a formázáshoz",
+        "800 - 850 g 00-s pizzaliszt",
+        "kukoricadara a formázáshoz",
+        "300 g friss eper",
+        "100 g kristálycukor",
+        "1 db citrom"
       ],
-      "cookingDescription": "Egy deci langyos vízben elkeverjük az élesztőt, a cukrot, pici sót és egy kanál lisztet, hagyjuk felfutni.\n      Egy nagy tálba szitáljuk bele a lisztet, keverjük hozzá a felfuttatott élesztőt és annyi langyos vizet még, hogy lágy tésztát kapjunk. Dolgozzuk jól ki addig, míg elengedi az edény falát.\n      Lisztezzük be a tál oldalát, a tészta tetejét, és takarjuk le konyharuhával. Langyos helyen kelesszük, míg a duplájára nem nő.\n      Közben elkészítjük a pizzamártást: a fokhagymát megfuttatjuk az olívaolajban. Vigyázzunk, meg ne barnuljon, mert akkor megkeseredik. Ráöntjük a paradicsompürét, ízesítjük, és annyi vizet adunk hozzá, amennyi a konzervdoboz kimosásához kellett. Fedő alatt összefőzzük.\n      Lisztezett deszkára kivesszük a tésztát, átgyúrjuk, hogy a buborékok távozzanak, és 8 cipóba osztjuk. Ahány személy, annyi cipó, ha maradna, fóliába csomagolva lefagyaszthatjuk.\n      Vékonyra nyújtjuk, és megkenjük 2-3 evőkanál mártással, a szélén 1 cm szegélyt hagyva. Ráreszeljük vagy szeleteljük a sajtot.\n      A sajtra terítjük a sonkát, gombát, halat stb., végül megszórjuk a mártáshoz használt pizzafűszerekkel, előmelegített sütőbe tesszük, és kb. tíz percig sütjük 250 fokon.",
+      "cookingDescription": "A pita-pizza recept első lépéseként a paradicsomszószt készítjük el. Ehhez az olajon megpirítjuk a zúzott fokhagymát, felöntjük a paradicsommal, sózzuk, borsozzuk, megszórjuk az oregánóval, majd 10 percig főzzük. \n\nA gombát vékony szeletekre vágjuk, a sajtot lereszeljük. A pitát lekenjük a paradicsomszósszal, rápakoljuk a reszelt sajtot, a gombát, a szalámit, és 200 fokra előmelegített, grillfunkciós sütőbe tesszük addig, amíg megpirul a teteje. Szuperegyszerű vacsoraötlet az extra hosszú napokra, de akár gyors vendégvárónak is tökéletes, ha az utolsó pillanatban jelentkeznek be a haverok.",
       "sliderImages": [
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/3.jpeg",
+          "thumbImage": "assets/images/3.jpeg",
           "title": "izé1",
           "alt": "izé1"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/3.jpeg",
+          "thumbImage": "assets/images/3.jpeg",
           "title": "izé2",
           "alt": "izé2"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/3.jpeg",
+          "thumbImage": "assets/images/3.jpeg",
           "title": "izé3",
           "alt": "izé3"
         }
@@ -125,40 +125,41 @@
     },
     {
       "id": 4,
-      "name": "Paradicsomos pizza",
-      "category": "Pizzareceptek",
-      "image": "assets/images/pizza_1.jpeg",
-      "shortDescription": "Pizza Veres Mari konyhájából",
-      "longDescription": "Paradicsomos pizza Veres Mari konyhájából",
+      "name": "Joghurtos alapú fitt pizza",
+      "category": ["pizza","sajtos"],
+      "image": "assets/images/4.jpeg",
+      "shortDescription": "Bellissima!",
+      "longDescription": "Ezt a pizzatészta-receptet Lajostól csentem, hiszen ami tökéletes, azon nem kell változtatni. Telepakoltam pariszósszal, négyféle sajttal és friss bazsalikommal. Kell ennél több? NEM!",
       "ingredients": [
-        "100 dkg finomliszt",
-        "1.5 dkg friss élesztő",
-        "140 g sűrített paradicsom  (két kis doboz)",
-        "2 ek olívaolaj",
-        "3 gerezd fokhagyma",
-        "2 ek só",
-        "bors  ízlés szerint",
-        "oregánó  ízlés szerint",
-        "bazsalikom  ízlés szerint",
-        "rozmaring  ízlés szerint"
+        "500 ml víz",
+        "2 g friss élesztő",
+        "20 g kristálycukor",
+        "15 g só",
+        "1 ek olívaolaj + a kelesztéshez",
+        "800 - 850 g 00-s pizzaliszt",
+        "400 g polpa paradicsomkonzerv",
+        "200 g kéksajt",
+        "200 g kecskesajt",
+        "200 g mozzarella",
+        "120 g parmezán"
       ],
-      "cookingDescription": "Egy deci langyos vízben elkeverjük az élesztőt, a cukrot, pici sót és egy kanál lisztet, hagyjuk felfutni.\n      Egy nagy tálba szitáljuk bele a lisztet, keverjük hozzá a felfuttatott élesztőt és annyi langyos vizet még, hogy lágy tésztát kapjunk. Dolgozzuk jól ki addig, míg elengedi az edény falát.\n      Lisztezzük be a tál oldalát, a tészta tetejét, és takarjuk le konyharuhával. Langyos helyen kelesszük, míg a duplájára nem nő.\n      Közben elkészítjük a pizzamártást: a fokhagymát megfuttatjuk az olívaolajban. Vigyázzunk, meg ne barnuljon, mert akkor megkeseredik. Ráöntjük a paradicsompürét, ízesítjük, és annyi vizet adunk hozzá, amennyi a konzervdoboz kimosásához kellett. Fedő alatt összefőzzük.\n      Lisztezett deszkára kivesszük a tésztát, átgyúrjuk, hogy a buborékok távozzanak, és 8 cipóba osztjuk. Ahány személy, annyi cipó, ha maradna, fóliába csomagolva lefagyaszthatjuk.\n      Vékonyra nyújtjuk, és megkenjük 2-3 evőkanál mártással, a szélén 1 cm szegélyt hagyva. Ráreszeljük vagy szeleteljük a sajtot.\n      A sajtra terítjük a sonkát, gombát, halat stb., végül megszórjuk a mártáshoz használt pizzafűszerekkel, előmelegített sütőbe tesszük, és kb. tíz percig sütjük 250 fokon.",
+      "cookingDescription": "Legalább 15-20 percig dolgozva simára dagasztjuk a tésztát.\n\nA kidolgozott tésztát egy nagy méretű műanyag zacskóba tesszük, amit előtte vékonyan beolajozunk. 10-12 fokos hűtőszekrénybe tesszük 12-24 órára, vagy akár hosszabb időre is. Akkor lesz jó minőségű a pizzatésztánk, ha alacsony hőmérsékleten, hosszú ideig kelesztjük.\n\nA felhasználás előtt 4-6 órával korábban kivesszük a tésztát a hűtőből, majd hatfelé osztjuk, kigombócozzuk, kicsit átgyúrjuk és lefedve 30-40 percig kelesztjük.\nA pizza sütési idejét mindenkinek meg kell tapasztalnia, a sütőjében elérhető legmagasabb hőmérséklet és teljesítmény függvényében. A klasszikus, fával fűtött kemencék 450-480 fokon sütnek, és a sütés idő, kapaszkodjatok meg, 45-50 másodperc! A háztartási sütők 230-300 fokon működnek, így a tapasztalt sütési idő tizeniksz perc is lehet.\n\nEgy nyújtódeszkát megszórunk kevés liszttel, a kezünket is belisztezzük, kikapunk egy tésztalabdát és a közepére egy mélyedést nyomunk a tenyerünkkel. Két kézzel megfogjuk az egyik szélénél és körkörös mozdulatokkal végigmegyünk a tészta szélénél a levegőben, ezzel kinyújtva a tésztánkat. Ha esetleg ez nem menne, a deszkán is kinyomogathatjuk a közepétől indulva, kb. 24 cm-es átmérőjű, kisebb pizzákat kell kapjunk.\n\nA pizzalapátot megszórjuk egy kevés kukoricaliszttel, ráhúzzuk a pizzatésztánkat, majd megkenjük a paradicsomszósszal, amihez a paradicsomkonzervet kikeverjük sóval, oregánóval és reszelt fokhagymával. Ezután meglocsoljuk egy kevés olívaolajjal. \n\nJöhetnek a fajtától függően reszelt vagy tépkedett sajtok, majd mehet is a pizzasütőbe, a kemencébe vagy az otthoni sütőbe.\n\nA sütési idő, ahogy már írtam, attól is függ, hogy milyen hőmérsékleten tudjuk sütni, ehhez van egy szuper pizza-kisokosunk, amiből tudtok tájékozódni. \n\nA végén megszórjuk frissen aprított bazsalikommal, és indulhat is a négysajtos pizzaparti!",
       "sliderImages": [
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/4.jpeg",
+          "thumbImage": "assets/images/4.jpeg",
           "title": "izé1",
           "alt": "izé1"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/4.jpeg",
+          "thumbImage": "assets/images/4.jpeg",
           "title": "izé2",
           "alt": "izé2"
         },
         {
-          "image": "assets/images/pizza_1.jpeg",
-          "thumbImage": "assets/images/pizza_1.jpeg",
+          "image": "assets/images/4.jpeg",
+          "thumbImage": "assets/images/4.jpeg",
           "title": "izé3",
           "alt": "izé3"
         }
