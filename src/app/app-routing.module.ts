@@ -10,7 +10,7 @@ import {FoodComponent} from "./features/food/food.component";
 const routes: Routes = [
   {path: 'home', component: HomeComponent, data: {label: 'Főoldal'}},
   {path: 'foods', component: FoodsComponent, data: {label: 'Összes étel'}},
-  {path: 'foods/:id', component: FoodComponent, data: {label: 'Étel'}},
+  {path: 'foods/:id', component: FoodComponent},
   {path: '', redirectTo: environment.config.homePageRoute, pathMatch: 'full'},
   {path: '**', redirectTo: environment.config.homePageRoute}
 ];

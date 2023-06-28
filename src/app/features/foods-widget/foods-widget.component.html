@@ -1,17 +1,19 @@
 <app-progress-spinner *ngIf="loading"></app-progress-spinner>
 <div *ngIf="!loading">
-  <section class="product" *ngFor="let category of categoryWithFoods | keyvalue">
-    <h1 class="text-center">{{category.key}}</h1>
-    <div class="container-fluid">
-      <div class="slider-wrap">
-        <div class="slider-main">
-
-        </div>
-        <div class="arrow-container">
-          <div class="arrow left-arrow" appStepPrev mainContainer=".slider-wrap" itemContainer=".slider-main"><</div>
-          <div class="arrow right-arrow" appStepNext mainContainer=".slider-wrap" itemContainer=".slider-main">></div>
+  <div *ngIf="foods.length; else elseBlock">
+    <section *ngFor="let category of categories">
+      <h1 class="category-title">{{category}}</h1>
+      <div class="container-fluid">
+        <div *ngFor="let food of foods | arrayFilter:category">
+          <article class="recipeItem">
+            {{food.name}}
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </div>
+
+<ng-template #elseBlock>
+  <h2 class="w-100 text-center errorMessage">{{errorMessage}}</h2>
+</ng-template>

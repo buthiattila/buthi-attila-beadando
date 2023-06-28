@@ -3,11 +3,13 @@ import {CommonModule} from '@angular/common';
 
 import {LineBreaksPipe} from "./linebreaks.pipe";
 import {ImplodePipe} from "./implode.pipe";
+import {ArrayfilterPipe} from "./arrayfilter.pipe";
 
 @NgModule({
   declarations: [
     LineBreaksPipe,
     ImplodePipe,
+    ArrayfilterPipe
   ],
   imports: [
     CommonModule
@@ -15,6 +17,7 @@ import {ImplodePipe} from "./implode.pipe";
   exports: [
     LineBreaksPipe,
     ImplodePipe,
+    ArrayfilterPipe
   ]
 })
 export class PipesModule {

@@ -7,7 +7,7 @@ OK - A weblap legyen responsive.
 OK - Használja az Angular Material lehetőségeit.
 OK - Legyen egy sticky felső menüsor (kis képernyő méreten hamburgermenü)
 OK - Legyen egy statikus footer rész, mely tartalmazza a nevetek, elérhetőségetek.
-- A főoldal jelenítsen meg 5 különböző étel kategóriát sávosan.
+OK - A főoldal jelenítsen meg 5 különböző étel kategóriát sávosan.
   - Minden egyes sáv tartalmazzon 10 ételt.
     - Egy elem részei: Név, rövid leírás, kép, kedvencek közé tétel/törlés kedvencek közül (lásd később)
 OK  - Bármely elemre kattintva megnyílik navigáció után az étel összes adata.
@@ -33,8 +33,8 @@ OK  - Bármely elemre kattintva megnyílik navigáció után az étel összes ad
 - silder képek (min 3)
 
 
-pizza:4
-paradicsomos:1
-gombás:1
-gyümölcsös:1
-sajtos:1
+pizza:5
+paradicsomos:2
+gombás:2
+gyümölcsös:2
+sajtos:3

@@ -164,6 +164,127 @@
           "alt": "izé3"
         }
       ]
+    },
+    {
+      "id": 5,
+      "name": "Hawaii pizza",
+      "category": ["pizza","gyümölcsös"],
+      "image": "assets/images/5.jpeg",
+      "shortDescription": "Karibi hangulat egy tepsis pizzán",
+      "longDescription": "Legyen szó esti filmezésről, vagy SK-s videók nézéséről, esetleg egy laza, baráti összeröffenésről, ezt a tepsis pizzát tuti, hogy mindenki imádni fogja. És ha igazán bátor vagy, nem teszed ki mellé a ketchupos flakont! :)",
+      "ingredients": [
+        "500 ml víz",
+        "2 g friss élesztő",
+        "20 g kristálycukor",
+        "15 g só",
+        "1 ek olívaolaj + a kelesztéshez",
+        "800 - 850 g 00-s pizzaliszt",
+        "180 g gépsonka",
+        "200 g mozzarella",
+        "200 g konzerv ananász"
+      ],
+      "cookingDescription": "Az élesztőt a langyos vízbe morzsoljuk, hozzákeverjük a cukrot, és hagyjuk 10-15 percet állni, hogy felfusson. A lisztet egy tálba tesszük, hozzáadjuk a felfuttatott élesztőt, a sót és az olajat, majd az egészet kézzel vagy dagasztógéppel kidagasztjuk. Lefedjük egy konyharuhával, és hagyjuk 50-60 percet állni, hogy megkeljen a tészta.\n\nA pizzaszószhoz közepes lángon olajat hevítünk egy lábasban, hozzáadjuk az áttört fokhagymát, majd ráöntjük a passatát. Ízesítjük sóval, borssal, hozzákeverjük az oregánót és a felaprított friss bazsalikomot is. Ha esetleg nincs friss, nyugodtan használhattok szárítottat. Az egészet összeforraljuk, és félretesszük.\n\nA megkelt tésztát enyhén lisztezett deszkára borítjuk, és kb. 40×50 cm-esre nyújtjuk, majd egy sütőpapírral bélelt tepsibe tesszük. Megkenjük a paradicsomos alappal, ráreszeljük a sajtot, megszórjuk a gépsonkával és a lecsöpögtetett ananásszal, majd 230 fokos sütőben kb. 15 perc alatt készre sütjük. Felszeleteljük, és aki bírja a forrót, már flamózhatja is.",
+      "sliderImages": [
+        {
+          "image": "assets/images/5.jpeg",
+          "thumbImage": "assets/images/5.jpeg",
+          "title": "izé1",
+          "alt": "izé1"
+        },
+        {
+          "image": "assets/images/5.jpeg",
+          "thumbImage": "assets/images/5.jpeg",
+          "title": "izé2",
+          "alt": "izé2"
+        },
+        {
+          "image": "assets/images/5.jpeg",
+          "thumbImage": "assets/images/5.jpeg",
+          "title": "izé3",
+          "alt": "izé3"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sajtos-gombás calzone",
+      "category": ["gombás","sajtos"],
+      "image": "assets/images/6.jpg",
+      "shortDescription": "A gombától brutálisan szaftos az egész",
+      "longDescription": "Egy igazán egyszerű, de nagyszerű vegetáriánus vacsoraötlet. Hétköznapokra, hétvégére, ünnepnapokra, vendégváráshoz, azaz mindig jó alternatíva. Turbózzátok fel, vagy egyszerűsítsétek le, a calzone pizzát mindenki szereti!",
+      "ingredients": [
+        "1 fej hagyma",
+        "1 fej lila hagyma",
+        "3 ek olívaolaj + a tészta lekenéséhez",
+        "3 gerezd fokhagyma",
+        "só, bors",
+        "300 g erdei gomba (kiolvasztva, leszűrve)",
+        "20 g vaj",
+        "2 ág friss kakukkfű",
+        "3 - 4 ek krémsajt",
+        "150 g pizzamozzarella",
+        "1 ek szarvasgombaolaj "
+      ],
+      "cookingDescription": "A gombás calzone elkészítését azzal kezdjük, hogy a kétféle hagymát félbevágjuk, vékonyan felszeleteljük, és az olívaolajon elkezdjük lepirítani, majd hozzáadjuk a lereszelt fokhagymákat. Sózzuk, borsozzuk, és addig pirítjuk, ameddig a hagymás keveréknek szép, karamellizált színe lesz.\n\nForró, száraz serpenyőre dobjuk a szeletelt gombát, majd addig pirítjuk, ameddig szép, pirult színt kap, ekkor hozzáadjuk a vajat és a friss kakukkfüvet, majd sózzuk és borsozzuk.\n\nA friss pizzatésztát kinyújtjuk, majd ovális formát vágunk belőle. A tészta felét megkenjük a krémsajttal, majd mehet rá a pirított hagyma és a gomba, végül ráhalmozunk a lereszelt pizzamozzarellából.\n\nA tészta másik felét ráhajtjuk, majd a széleket összenyomkodjuk, így kapjuk meg a tipikus, félhold alakú calzone formát. A tetejét megkenjük olívaolajjal, majd 220 fokra előmelegített sütőben, légkeveréses fokozaton nagyjából 10 perc alatt készre sütjük. \n\nA készre sült pizzánkat megkenjük még egy kevés szarvasgombás vagy sima olívaolajjal, és még forrón tálaljuk.",
+      "sliderImages": [
+        {
+          "image": "assets/images/6.jpg",
+          "thumbImage": "assets/images/6.jpg",
+          "title": "izé1",
+          "alt": "izé1"
+        },
+        {
+          "image": "assets/images/6.jpg",
+          "thumbImage": "assets/images/6.jpg",
+          "title": "izé2",
+          "alt": "izé2"
+        },
+        {
+          "image": "assets/images/6.jpg",
+          "thumbImage": "assets/images/6.jpg",
+          "title": "izé3",
+          "alt": "izé3"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Brie sajtos-szárított paradicsomos besütött tészta",
+      "category": ["paradicsomos","sajtos"],
+      "image": "assets/images/7.jpeg",
+      "shortDescription": "Soooook paradicsom",
+      "longDescription": "A világon az egyik kedvenc dolgom a szárított paradicsom, ezért amibe csak tudom, beleteszem. Nincs is jobb egy besütött paradicsomos tésztánál brie sajttal a tetején.",
+      "ingredients": [
+        "200 g fusilli",
+        "só",
+        "2 ek olívaolaj",
+        "100 g szárított paradicsom",
+        "250 ml passata",
+        "100 g sajtkrém",
+        "100 g reszelt mozzarella",
+        "125g brie sajt"
+      ],
+      "cookingDescription": "A besütött tészta első lépéseként a tésztát forró, sós vízben kifőzzük a csomag utasítása szerint és leszűrjük.\n\nEgy közepes lábasban felhevítjük az olajat, majd a felaprított hagymát aranybarnára pirítjuk. Ezután hozzáadjuk az aprított szárított paradicsomot, majd beleborítjuk a passzírozott paradicsomot, a sajtkrémet és reszelt mozzarellát is.\n\nHa már jól felolvadt a sajt, hozzáöntjük a tésztát, majd együtt beleborítjuk egy sütőtálba. A tetején eloszlatjuk a szeletekre vágott brie sajtot. 200 fokra előmelegített sütőben 15 percig sütjük. Tálaláskor friss bazsalikomlevelekkel és felkockázott szárított paradicsommal díszítjük.",
+      "sliderImages": [
+        {
+          "image": "assets/images/7.jpeg",
+          "thumbImage": "assets/images/7.jpeg",
+          "title": "izé1",
+          "alt": "izé1"
+        },
+        {
+          "image": "assets/images/7.jpeg",
+          "thumbImage": "assets/images/7.jpeg",
+          "title": "izé2",
+          "alt": "izé2"
+        },
+        {
+          "image": "assets/images/7.jpeg",
+          "thumbImage": "assets/images/7.jpeg",
+          "title": "izé3",
+          "alt": "izé3"
+        }
+      ]
     }
   ],
   "total": 30
