@@ -17,9 +17,9 @@ export class FoodsComponent implements OnInit {
   onlyFavorites: boolean = false;
   filterString: string = '';
   errorMessage: string = '';
+  breakpoint: number = 0;
   foods: Food[] = [];
   filteredFoods: Food[] = [];
-  breakpoint: number = 0;
 
   private unsubscribe = new Subject<void>();
 

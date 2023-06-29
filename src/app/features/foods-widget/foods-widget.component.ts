@@ -50,4 +50,5 @@ export class FoodsWidgetComponent implements OnInit {
     });
   }
 
+
 }

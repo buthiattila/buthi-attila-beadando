@@ -4,10 +4,20 @@
     <section *ngFor="let category of categories">
       <h1 class="category-title">{{category}}</h1>
       <div class="container-fluid">
-        <div *ngFor="let food of foods | arrayFilter:category">
-          <article class="recipeItem">
-            {{food.name}}
-          </article>
+        <div class="carousel-container">
+          <div class="carousel-inner">
+            <div class="track">
+              <article class="slider-item" *ngFor="let food of foods | arrayFilter:category">
+                <div class="entry-content-item">
+                  {{food.name}}
+                </div>
+              </article>
+            </div>
+            <div class="carousel-nav">
+              <button type="button" class="prev" appStepPrev mainContainer=".carousel-container" itemContainer=".track"><mat-icon>arrow_left</mat-icon></button>
+              <button type="button" class="next" appStepPrev mainContainer=".carousel-container" itemContainer=".track"><mat-icon>arrow_right</mat-icon></button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -17,3 +27,6 @@
 <ng-template #elseBlock>
   <h2 class="w-100 text-center errorMessage">{{errorMessage}}</h2>
 </ng-template>
+
+
+
