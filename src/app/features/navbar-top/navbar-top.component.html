@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="nav-items" [class.is-open]="isMenuOpen">
-      <a class="nav-item" *ngFor="let link of links" [routerLinkActive]="['link-active']" [routerLink]="[link.path]">{{link.label}}</a>
+      <a class="nav-item" *ngFor="let link of links" [routerLinkActive]="['link-active']" [routerLink]="[link.path]" (click)="closeMenu()">{{link.label}}</a>
     </div>
   </mat-toolbar>
 </nav>

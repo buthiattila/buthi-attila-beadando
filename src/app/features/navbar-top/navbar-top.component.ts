@@ -37,6 +37,12 @@ export class NavbarTopComponent implements OnInit {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
+  closeMenu(): void {
+    if (this.isMenuOpen) {
+      this.toggleMenu();
+    }
+  }
+
 }
 
 export interface navItem {
