@@ -8,8 +8,15 @@
           <div class="carousel-inner">
             <div class="track">
               <article class="slider-item" *ngFor="let food of foods | arrayFilter:category">
+                <app-btn-favorite class="btn-favorite" [itemIdentifier]="food.id"></app-btn-favorite>
                 <div class="entry-content-item">
-                  {{food.name}}
+                  <figure>
+                    <img src="{{food.image}}" alt="{{food.name}}" class="entry-image"/>
+                  </figure>
+                  <div class="entry-description">
+                    <div class="entry-title"><h2>{{food.name}}</h2></div>
+                    <div class="entry-summary">{{food.shortDescription}}</div>
+                  </div>
                 </div>
               </article>
             </div>
