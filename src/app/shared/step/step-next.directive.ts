@@ -1,15 +1,16 @@
-import {Directive, ElementRef, HostListener, inject, Input} from '@angular/core';
+import {Directive, ElementRef, HostListener, Input} from '@angular/core';
 
 @Directive({
   selector: '[appStepNext]'
 })
 export class StepNextDirective {
-  private element = inject(ElementRef);
-
   @Input() mainContainer: string = '';
   @Input() itemContainer: string = '';
 
-  @HostListener('click') nextFunc(): void {
+  constructor(private element: ElementRef) {
+  }
+
+  @HostListener('click', ['$event']) prevFunc(): void {
     if (!this.mainContainer.length) {
       console.warn('Az appStepNext direktíván a mainContainer megadása kötelező');
     } else if (!this.itemContainer.length) {
@@ -21,7 +22,7 @@ export class StepNextDirective {
         sliderMain = sliderMain.querySelector(this.itemContainer);
       }
 
-      let item = sliderMain.firstChild;
+      let item = sliderMain.firstElementChild;
 
       sliderMain.append(item);
     }
