@@ -1,17 +1,11 @@
 $text_color_1: #9bcb3b;
 $text_color_2: #673ab7;
+$icon_size: 54px;
 
 .errorMessage {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: $text_color_2;
-}
-
-.btn-favorite {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  z-index: 1;
 }
 
 .category-title {
@@ -75,6 +69,13 @@ $text_color_2: #673ab7;
 
         @media (max-width: 576px) {
           width: 100%;
+        }
+
+        .btn-favorite {
+          position: absolute;
+          top: .5rem;
+          right: 1rem;
+          z-index: 1;
         }
 
         .entry-content-item {
@@ -158,15 +159,19 @@ $text_color_2: #673ab7;
         &.next {
           right: -30px;
         }
+
+        .material-icons {
+          font-size: $icon_size;
+
+          &.mat-icon {
+            height: $icon_size;
+            width: $icon_size;
+
+            margin-left: -12.5px !important;
+            margin-right: unset !important;
+          }
+        }
       }
-
     }
-
   }
 }
-
-
-
-
-
-
