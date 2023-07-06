@@ -1,4 +1,4 @@
-https://finomreceptek.hu/receptkategoriak
+https://ba-beadando-a07b8.web.app/home
 
 Hozz létre egy új git repót név-beadandó formában.
 A beadandó feladat egy recept oldal elkészítése. A feladat beadási határideje 2023.08.01. 23:59.
