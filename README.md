@@ -33,8 +33,8 @@ OK  - Bármely elemre kattintva megnyílik navigáció után az étel összes ad
 - silder képek (min 3)
 
 
-pizza:5
-paradicsomos:2
-gombás:2
-gyümölcsös:2
-sajtos:3
+pizza:10
+paradicsomos:6
+gombás:5
+gyümölcsös:4
+sajtos:12
