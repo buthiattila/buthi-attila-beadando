@@ -22,7 +22,7 @@ export class StepNextDirective {
         sliderMain = sliderMain.querySelector(this.itemContainer);
       }
 
-      let item = sliderMain.firstElementChild;
+      const item = sliderMain.firstElementChild;
 
       sliderMain.append(item);
     }

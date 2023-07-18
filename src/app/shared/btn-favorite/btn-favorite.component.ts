@@ -21,7 +21,7 @@ export class BtnFavoriteComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    let isFavorite: boolean = this.storageService.check('favorite', this.itemIdentifier);
+    const isFavorite: boolean = this.storageService.check('favorite', this.itemIdentifier);
 
     this.isFavorite.next(isFavorite);
 

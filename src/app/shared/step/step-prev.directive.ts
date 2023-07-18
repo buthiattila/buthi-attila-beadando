@@ -22,7 +22,7 @@ export class StepPrevDirective {
         sliderMain = sliderMain.querySelector(this.itemContainer);
       }
 
-      let item = sliderMain.lastElementChild;
+      const item = sliderMain.lastElementChild;
 
       sliderMain.prepend(item);
     }

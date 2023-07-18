@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
 import {BehaviorSubject, Subject, takeUntil} from 'rxjs';
 
+import {AppUtilsService} from '../../core/services/app-utils.service';
 import {FoodService} from "../../core/services/food.service";
 import {Food} from "../../core/types/food.type";
 
@@ -13,6 +14,7 @@ import {Food} from "../../core/types/food.type";
 export class FoodComponent {
 
   title = "";
+  defaultClosePath: string = 'home';
   loading: boolean = false;
   errorMsg: string = '';
   id: number = -1;
@@ -24,7 +26,7 @@ export class FoodComponent {
 
   private unsubscribe = new Subject<void>();
 
-  constructor(private router: Router, private actRoute: ActivatedRoute, private foodService: FoodService) {
+  constructor(private router: Router, private appUtils: AppUtilsService, private actRoute: ActivatedRoute, private foodService: FoodService) {
   }
 
   ngOnInit(): void {
@@ -66,7 +68,19 @@ export class FoodComponent {
 
   closeFood(): void {
     this.loading = false;
-    this.router.navigate(['foods']);
+
+    const isPreviousPageInApp: boolean = this.appUtils.isCurrentPathInApp();
+    let path: string | null = localStorage.getItem('parentPage');
+
+    if (isPreviousPageInApp) {
+      if (path === null) {
+        path = this.defaultClosePath;
+      }
+    } else {
+      path = this.defaultClosePath;
+    }
+
+    this.router.navigate([path]);
   }
 
 }

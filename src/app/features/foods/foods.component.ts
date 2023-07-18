@@ -102,6 +102,8 @@ export class FoodsComponent implements OnInit {
   }
 
   openItem(itemId: number): void {
+    localStorage.setItem('parentPage', 'foods');
+
     this.router.navigate(['foods', itemId]);
   }
 

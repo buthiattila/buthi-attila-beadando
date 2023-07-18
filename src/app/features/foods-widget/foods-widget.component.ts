@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {Subject} from "rxjs";
 import {Food} from "../../core/types/food.type";
 import {FoodService} from "../../core/services/food.service";
-import {StorageService} from "../../core/services/storage.service";
 import {Router} from "@angular/router";
 
 @Component({
@@ -19,7 +18,7 @@ export class FoodsWidgetComponent implements OnInit {
 
   private unsubscribe = new Subject<void>();
 
-  constructor(private foodService: FoodService, private storageService: StorageService) {
+  constructor(private foodService: FoodService, private router: Router) {
   }
 
   ngOnInit(): void {
@@ -50,5 +49,10 @@ export class FoodsWidgetComponent implements OnInit {
     });
   }
 
+  openItem(itemId: number): void {
+    localStorage.setItem('parentPage', 'home');
+
+    this.router.navigate(['foods', itemId]);
+  }
 
 }

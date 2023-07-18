@@ -5,7 +5,7 @@ import {Injectable} from '@angular/core';
 })
 export class StorageService {
 
-  private values: Map<string, any> = new Map<string, any>();
+  private values: Map<string, [number]> = new Map<string, [number]>();
 
   set(key: string, value: number): void {
     const existingValue = this.get(key);
@@ -26,8 +26,8 @@ export class StorageService {
   }
 
   check(key: string, value: number): boolean {
-    let isExist: boolean = false;
     const existingValue = this.get(key);
+    let isExist: boolean = false;
 
     if (existingValue) {
       isExist = existingValue.includes(value);
@@ -38,8 +38,8 @@ export class StorageService {
 
   removeFromValue(key: string, value: number): void {
     if (this.check(key, value)) {
-      let existingValue = this.get(key);
-      let newValue = existingValue.filter((item: number) => item !== value);
+      const existingValue = this.get(key);
+      const newValue = existingValue.filter((item: number) => item !== value);
 
       if (newValue.length) {
         this.set(key, newValue);
